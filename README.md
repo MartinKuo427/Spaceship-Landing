@@ -16,3 +16,6 @@ python train.py --agents deepqn --number_episodes 3000 --lr 0.0001 --gamma 0.99 
 ### Double Deep Q-learning + boltzmann exploration
 
 python train.py --agents dqn_bolt --number_episodes 3000 --lr 0.0001 --gamma 0.99 --final_eps 0.02 --max_steps_per_episodes 5000
+
+### Inference of Double Deep Q-learning + epsilon-greedy
+![](https://github.com/MartinKuo427/Spaceship-Landing/blob/main/example_inference.gif)
